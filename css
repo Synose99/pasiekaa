@@ -1,0 +1,212 @@
+html
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/pngs/tlo_blur.png'); /* Dodajemy tło */
+    background-size: cover; /* Upewniamy się, że obrazek pokrywa całe tło */
+    background-repeat: no-repeat; /* Zapobiegamy powtarzaniu się obrazka */
+    background-attachment: fixed; /* Tło będzie nieruchome, jeśli przewijasz stronę */
+    background-position: right center; /* Ustawiamy obraz w centrum */
+	
+	 -webkit-backdrop-filter: blur(10px); /* For Safari */
+    backdrop-filter: blur(10px); /* Standard property */
+}
+	#tlo 
+	{
+		filter: blur(10px);
+		width: 100%;
+		height: 100%;
+		left: 0%;
+		top: 0%;
+		overflow: visible;
+	}
+
+
+	#pasekgorny 
+	{
+		fill: rgba(251,233,208,1);
+	}
+	.pasekgorny 
+	{position: absolute;
+		overflow: visible;
+		width: 100%;
+		height: 14%;
+		left: 0%;
+		top: 0%;}
+
+
+	#logo 
+	{
+		filter: drop-shadow(1px 6px 3px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		width: 6.5%;
+    	height: 11.5%;
+    	left: 2.1%;
+   		top: 1.4%;
+		overflow: visible;
+	}
+	#maja 
+	{
+		filter: drop-shadow(0px 1px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		width: 8%;
+    	height: 22.9%;
+    	left: 50%;
+    	top: -3%;
+		overflow: visible;
+	}
+
+
+
+	#poleglowne 
+	{
+		fill: rgba(251,233,208,1);
+	}
+	.poleglowne 
+	{
+		filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 67%;
+    	height: 75%;
+    	left: 20%;
+    	top: 17%;
+	}
+
+
+
+	#placeholder1 
+	{
+		position: absolute;
+		width: 11.5%;
+    	height: 6.5%;
+    	left: 17.5%;
+    	top: 3.645%;
+		overflow: visible;
+	}
+	#placeholder2 
+	{
+		position: absolute;
+		width: 11.5%;
+   	 	height: 6.5%;
+    	left: 35%;
+    	top: 3.645%;
+		overflow: visible;
+	}
+	#placeholder3 
+	{
+		position: absolute;
+		width: 11.5%;
+    	height: 6.5%;
+    	left: 61%;
+    	top: 3.645%;
+		overflow: visible;
+	}
+	#placeholder4 
+	{
+		position: absolute;
+		width: 11.5%;
+    	height: 6.5%;
+    	left: 78.5%;
+    	top: 3.645%;
+		overflow: visible;
+	}
+
+
+
+	#Rodzaje_miodow 
+	{
+		left: 269px;
+		top: 104px;
+		position: absolute;
+		overflow: visible;
+		width: 251px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Cambria;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(135,79,65,1);
+		letter-spacing: 3px;
+		text-transform: uppercase;
+	}
+
+
+	#Produkty_Pszczele 
+	{
+		left: 560px;
+		top: 104px;
+		position: absolute;
+		overflow: visible;
+		width: 307px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Cambria;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(135,79,65,1);
+		letter-spacing: 3px;
+		text-transform: uppercase;
+	}
+
+
+	#Sremska_Pasieka
+	{
+		left: 1054px;
+		top: 104px;
+		position: absolute;
+		overflow: visible;
+		width: 257px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Cambria;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(135,79,65,1);
+		letter-spacing: 3px;
+		text-transform: uppercase;
+	}
+
+
+	#Prezenty
+	{
+		left: 1429px;
+		top: 104px;
+		position: absolute;
+		overflow: visible;
+		width: 141px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Cambria;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(135,79,65,1);
+		letter-spacing: 3px;
+		text-transform: uppercase;
+	}
+
+	#Srem 
+	{
+		filter: drop-shadow(0.2px 1px 0px rgba(0, 0, 0, 0.161));
+		left: 88px;
+		top: 87px;
+		position: absolute;
+		overflow: visible;
+		width: 65px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Cambria;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(135,79,65,1);
+		letter-spacing: 2px;
+		text-transform: uppercase;
+	}
